@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [EDR_MCU_PCB_FTDI_v1.PrjPcb]
+   Generated File[MCU_PCB.TXT]
+   Generated File[MCU_PCB.LDP]
+   Generated File[MCU_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 8:49:22 PM On 2024-04-17

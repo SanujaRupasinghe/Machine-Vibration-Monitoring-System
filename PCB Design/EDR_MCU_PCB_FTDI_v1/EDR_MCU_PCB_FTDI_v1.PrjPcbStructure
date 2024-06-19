@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Main.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=FTDI|SchDesignator=FTDI|FileName=FTDI.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=FTDI.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=ATmega.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=ATmega.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

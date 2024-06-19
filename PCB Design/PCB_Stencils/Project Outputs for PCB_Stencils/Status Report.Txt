@@ -1,0 +1,14 @@
+Source PCB Design PCB_Stencils.PcbDoc contains embedded board array. It is recomended to generate individual BOM for each embedded board PCB design.
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCB_Stencils.PrjPcb]
+   Generated File[PCB_Stencils.TXT]
+   Generated File[PCB_Stencils.LDP]
+   Generated File[PCB_Stencils.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:38:02 PM On 2024-04-17
