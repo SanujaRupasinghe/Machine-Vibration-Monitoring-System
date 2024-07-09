@@ -1,7 +1,7 @@
 /*
  * MIT License
  * 
- * Copyright (c) 2024 Linuka Ratnayake
+ * Copyright (c) 2024 Sanuja Rupasinghe
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,32 +22,20 @@
  * THE SOFTWARE.
  */
 
+#ifndef UART_COMMUNICATION_H
+#define UART_COMMUNICATION_H
 
-#ifndef ACCELEROMETER_H
-#define ACCELEROMETER_H
-
+#include <avr/io.h>
 #include <stdint.h>
+#include <stdlib.h>
+#include <cmath>
 
-using namespace std;
-
-struct accComp
-{
-  uint8_t AccX;
-  uint8_t AccY;
-  uint8_t AccZ;
-};
-
-class Accelerometer
-{
-private:
-  int i2c_address;
-  float accX, accY, accZ;
-
-  void readAcceleration();
-
-public:
-  void begin(int device_address);
-  struct accComp getAcceleration();
-};
+void UART_init(uint32_t baud_rate);
+void UART_transmit(unsigned char data);
+void UART_transmit_string(const char *str);
+void UART_transmit_string_n(const char *str);
+bool UART_available(void);
+char UART_receive(void);
+char *UART_receive_string(void);
 
 #endif

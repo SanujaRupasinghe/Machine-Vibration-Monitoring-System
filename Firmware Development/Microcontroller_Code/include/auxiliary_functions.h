@@ -22,32 +22,17 @@
  * THE SOFTWARE.
  */
 
+#ifndef AUXILIARY_FUNCTIONS_H
+#define AUXILIARY_FUNCTIONS_H
 
-#ifndef ACCELEROMETER_H
-#define ACCELEROMETER_H
+#include <avr/interrupt.h>
+#include <string>
+#include <sstream>
+#include <iomanip>
 
-#include <stdint.h>
-
-using namespace std;
-
-struct accComp
-{
-  uint8_t AccX;
-  uint8_t AccY;
-  uint8_t AccZ;
-};
-
-class Accelerometer
-{
-private:
-  int i2c_address;
-  float accX, accY, accZ;
-
-  void readAcceleration();
-
-public:
-  void begin(int device_address);
-  struct accComp getAcceleration();
-};
+float map_range(float value, float prevLimitLower, float prevLimitUpper, float nextLimitLower, float nextLimitUpper);
+const char *to_string(float value);
+void setup_millis_counter();
+unsigned long millis_elapsed();
 
 #endif
