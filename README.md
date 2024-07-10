@@ -102,13 +102,21 @@ or
 
 Code related to GUI application development and integration of both data visualization and machine learning parts can be found <a href="Software%20Development/Final%20GUI%20Application%20-%20Tkinter/">here</a>.
 
+### System Integration
+
+The following images show some steps of system integration including wiring, assembling, and working of powered-up module.
+
+| ![System Integration Side](Project%20Documents/System%20Integration%20Images/SysInt_Side.jpeg) | ![System Integration Main Wired](Project%20Documents/System%20Integration%20Images/SysInt_Main_Wired.jpeg) |
+|:--:|:--:|
+| ![System Integration Powered](Project%20Documents/System%20Integration%20Images/SysInt_Powered.jpeg) | ![System Integration All](Project%20Documents/System%20Integration%20Images/SysInt_All.jpeg) |
+
 
 ### Documents Related to the Project
 
-Detailed documentation of the project can be found <a href="Project%20Documents">here</a>. Feel free to refer them to get a thorough understanding of the project.
+Detailed documentation of the project can be found using the following links. Feel free to refer them to get a thorough understanding of the project.
 
 <ol>
-<li> Design Methodology Document</li>
-<li> Comprehensive Design Document </li>
-<li> Document of Photographs </li>
+<li> <a href="Project%20Documents/1_Design_Methodology_Document.pdf">Design Methodology Document</a></li>
+<li> <a href="Project%20Documents/2_Comprehensive_Design_Document.pdf">Comprehensive Design Document</a></li>
+<li> <a href="Project%20Documents/3_Document_of_Photographs.pdf">Document of Photographs</a></li>
 </ol>
