@@ -18,6 +18,8 @@ This project is done as a partial fulfillment for EN2160: Electronic Design Real
 
 Project **"VibroGuard"** was aimed to design and develop an industry level solution. Accordingly, a hardware-software co-solution is developed including PCB, Enclosure, Software, and Firmware.
 
+https://github.com/user-attachments/assets/75e11f41-68b1-4032-a1a3-b93472fd98e2
+
 ### PCB Design
 
 Product hardware consisted of two modules. Each of them contained a separate 2-layer PCB designed using **Altium Designer**.
