@@ -45,7 +45,7 @@ Similar to PCB design, enclosures were also designed for the two separate module
 
 | **Main Module** | **Sensor Module** |
 |:--:|:--:|
-| ![Main Module Enclosure](Enclosure%20Design/Images/Main_Controller_Enclosure.PNG) | ![Sensor Module Enclosure](Enclosure%20Design/Images/Sensor_Enclosure.PNG) |
+| <img src="Enclosure%20Design/Images/Main_Controller_Enclosure.PNG" style = "width: 94%;"> | ![Sensor Module Enclosure](Enclosure%20Design/Images/Sensor_Enclosure.PNG) |
 
 Enclosure design files can be found <a href="Enclosure%20Design">here</a>.
 
@@ -106,10 +106,9 @@ Code related to GUI application development and integration of both data visuali
 
 The following images show some steps of system integration including wiring, assembling, and working of powered-up module.
 
-| ![System Integration Side](Project%20Documents/System%20Integration%20Images/SysInt_Side.jpeg) | ![System Integration Main Wired](Project%20Documents/System%20Integration%20Images/SysInt_Main_Wired.jpeg) |
+| ![System Integration Side](Project%20Documents/System%20Integration%20Images/SysInt_All.jpg) | <img src="Project%20Documents/System%20Integration%20Images/SysInt_Wired.jpg" style=" width: 94%;"> |
 |:--:|:--:|
-| ![System Integration Powered](Project%20Documents/System%20Integration%20Images/SysInt_Powered.jpeg) | ![System Integration All](Project%20Documents/System%20Integration%20Images/SysInt_All.jpeg) |
-
+| ![System Integration Powered](Project%20Documents/System%20Integration%20Images/SysInt_Device.jpg) | <img src="Project%20Documents/System%20Integration%20Images/SysInt_Wiring.jpg" style=" width: 98%;"> |
 
 ### Documents Related to the Project
 
